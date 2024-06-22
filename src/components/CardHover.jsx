@@ -4,7 +4,7 @@ import { HoverEffect } from "./ui/card-hover-effect";
 
 export function CardHover() {
   return (
-    <div id="skills" className="md:snap-center flex flex-col items-center justify-center bg-black overflow-hidden md:h-screen px-5">
+    <div id="skills" className="flex flex-col items-center justify-center bg-black overflow-hidden md:h-screen px-5">
     <h1 className="font-bold text-4xl">My skills</h1>
     <div className="w-full mx-auto flex items-center justify-center">
       <HoverEffect items={projects} />
