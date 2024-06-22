@@ -8,7 +8,7 @@ export default function Hero() {
     const words = `A skilled MERN stack developer. I specialize in creating powerful web applications with MongoDB, Express.js, React, and Node.js. Let&apos;s turn your ideas into reality!`
 
   return (
-    <div className="w-full z-50 mx-auto rounded-md h-screen overflow-hidden snap-center bg-black">
+    <div className="w-full z-50 mx-auto rounded-md h-screen overflow-hidden md:snap-center bg-black">
       <Vortex
         backgroundColor="black"
         className="flex  flex-col justify-center md:px-10  w-full h-full px-5"
