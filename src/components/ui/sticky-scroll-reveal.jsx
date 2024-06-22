@@ -93,7 +93,7 @@ const StickyScroll = ({
                 }}
                 className="text-kg text-slate-300 max-w-sm mt-10"
               >
-                <div className="flex flex-col md:flex-row gap-5">
+                <div className="flex flex-col md:flex-row gap-5 text-center">
                 <a href={item?.link || '/'} className='px-2 bg-blue-600 hover:bg-blue-700 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]'>Live</a>
                 <a href={item?.client || '/'} className='px-2 bg-blue-600 hover:bg-blue-700 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]'>client code</a>
                 <a href={item?.server || '/'} className='px-2 bg-blue-600 hover:bg-blue-700 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]'>server code</a>
