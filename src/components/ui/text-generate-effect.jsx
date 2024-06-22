@@ -15,7 +15,7 @@ const TextGenerateEffect = ({ words, className }) => {
       },
       {
         duration: 2,
-        delay: stagger(0.2),
+        delay: stagger(0.5),
       }
     );
   }, [scope, animate]);
@@ -26,7 +26,7 @@ const TextGenerateEffect = ({ words, className }) => {
         {wordsArray.map((word, idx) => (
           <motion.span
             key={word + idx}
-            className="dark:text-white text-black opacity-0"
+            className="dark:text-white  opacity-0"
           >
             {word}{" "}
           </motion.span>
@@ -36,9 +36,9 @@ const TextGenerateEffect = ({ words, className }) => {
   };
 
   return (
-    <div className={cn("font-bold", className)}>
+    <div className={cn("font-semibold", className)}>
       <div className="mt-4">
-        <div className="dark:text-white text-black text-2xl leading-snug tracking-wide">
+        <div className="dark:text-white  leading-snug tracking-wide text-white text-sm md:text-xl max-w-xl mt-6">
           {renderWords()}
         </div>
       </div>
