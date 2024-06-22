@@ -4,35 +4,49 @@ import { HoverEffect } from "./ui/card-hover-effect";
 
 export function CardHover() {
   return (
-    <div className="w-full h-screen snap-center mx-auto px-8 flex items-center justify-center">
+    <div id="skills" className="snap-center h-screen flex flex-col items-center justify-center bg-black z-50 px-5">
+    <h1 className="font-bold text-4xl">My skills</h1>
+    <div className="w-full mx-auto flex items-center justify-center">
       <HoverEffect items={projects} />
+    </div>
     </div>
   );
 }
 export const projects = [
   {
-    description:
-      "A technology company that builds economic infrastructure for the internet.",
+    image : '/images/skill/html.png'
   },
   {
-    description:
-      "A streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.",
+    image : '/images/skill/css.png'
   },
   {
-    description:
-      "A multinational technology company that specializes in Internet-related services and products.",
+    image : '/images/skill/tailwind.png'
   },
   {
-    description:
-      "A technology company that focuses on building products that advance Facebook's mission of bringing the world closer together.",
+    image : '/images/skill/js.webp'
   },
   {
-    description:
-      "A multinational technology company focusing on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+    image : '/images/skill/react.png'
   },
   {
-    description:
-      "A multinational technology company that develops, manufactures, licenses, supports, and sells computer software, consumer electronics, personal computers, and related services.",
-      image: '/images/1.jpg'
+    image : '/images/skill/next.webp'
+  },
+  {
+    image : '/images/skill/node.png'
+  },
+  {
+    image : '/images/skill/express.png'
+  },
+  {
+    image : '/images/skill/firebase.png'
+  },
+  {
+    image : '/images/skill/mongodb.png'
+  },
+  {
+    image : '/images/skill/github.png'
+  },
+  {
+    image : '/images/skill/jwt.png'
   },
 ];

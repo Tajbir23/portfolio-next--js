@@ -8,12 +8,12 @@ const Navbar = () => {
             link: "/",
         },
         {
-          name: "Technology",
-          link: "/about",
+          name: "Skills",
+          link: "#skills",
         },
         {
           name: "Projects",
-          link: "/projects",
+          link: "#projects",
         },
         {
           name: "Contact",

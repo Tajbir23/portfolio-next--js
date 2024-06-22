@@ -1,16 +1,15 @@
 "use client"
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import Link from "next/link";
 import Image from "next/image";
 
 const HoverEffect = ({ items, className }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10 ${className}`}>
+    <div className={`grid grid-cols-2 md:grid-cols-3 m-auto lg:grid-cols-6 py-10 ${className}`}>
       {items.map((item, idx) => (
-        <div key={item.idx} className="relative group block p-2 h-56 w-56"
+        <div key={item?.image} className="relative group block p-2 "
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
         >
@@ -32,9 +31,7 @@ const HoverEffect = ({ items, className }) => {
             )}
           </AnimatePresence>
           <Card>
-            {/* <imageCard> */}
-              <Image width={100} height={100} src={item?.image} className="m-auto" alt="image not found" />
-            {/* </imageCard> */}
+              <Image width={500} height={500} src={item?.image} className="m-auto w-auto h-16" alt="image not found" />
           </Card>
         </div>
       ))}
@@ -52,29 +49,5 @@ const Card = ({ className, children }) => {
   );
 };
 
-// const imageCard = ({ className, children }) => {
-//   return (
-//     <div className={`rounded-2xl h-5 p-4 overflow-hidden bg-black border border-transparent dark:border-white/[0.2] group-hover:border-slate-700 relative z-20 ${className}`}>
-//       {children}
-//     </div>
-//   );
-// }
 
-// const CardTitle = ({ className, children }) => {
-//   return (
-//     <h4 className={`text-zinc-100 font-bold tracking-wide mt-4 ${className}`}>
-//       {children}
-//     </h4>
-//   );
-// };
-
-// const CardDescription = ({ className, children }) => {
-//   return (
-//     <p className={`mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm ${className}`}>
-//       {children}
-//     </p>
-//   );
-// };
-
-// export { HoverEffect, Card, CardTitle, CardDescription };
 export { HoverEffect, Card};
