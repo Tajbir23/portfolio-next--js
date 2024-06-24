@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 
 const DownloadResume = () => {
   return (
-    <a href="facebook.com" className="flex items-center justify-center ">
+    <a href="https://drive.google.com/file/d/1acMNxI1GphUz_kF8vwYh1d7RD7w_sgPl/view?usp=sharing" className="flex items-center justify-center ">
       <SpotlightButton />
     </a>
   );

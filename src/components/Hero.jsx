@@ -22,7 +22,7 @@ export default function Hero() {
 
         </div>
         <div className="flex flex-col sm:flex-row  gap-4 mt-6">
-          <a href="https://facebook.com" className="px-4 w-max py-2 bg-blue-600 hover:bg-blue-700 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]">
+          <a href="https://drive.google.com/file/d/1acMNxI1GphUz_kF8vwYh1d7RD7w_sgPl/view?usp=sharing" className="px-4 w-max py-2 bg-blue-600 hover:bg-blue-700 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]">
           
             Download resume
           </a>
