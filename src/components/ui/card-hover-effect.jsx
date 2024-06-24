@@ -7,7 +7,7 @@ const HoverEffect = ({ items, className }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className={`grid grid-cols-3 md:grid-cols-4 m-auto lg:grid-cols-6 py-10 ${className}`}>
+    <div className={`grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 m-auto lg:grid-cols-6 py-10 ${className}`}>
       {items.map((item, idx) => (
         <div key={item?.image} className="relative group block p-2 "
           onMouseEnter={() => setHoveredIndex(idx)}
