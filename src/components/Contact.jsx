@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div id="contact" className="min-h-screen flex items-center justify-center bg-black text-white">
       <form className="bg-gray-900 p-8 rounded-lg shadow-lg">
-        <h2 className="text-2xl mb-6 font-bold">Contact Us</h2>
+        <h2 className="text-2xl mb-6 font-bold">Contact Me</h2>
         <div className="flex gap-5">
         <div className="flex flex-col mb-4">
           <label className="mb-2 text-gray-300" htmlFor="name">Name</label>
