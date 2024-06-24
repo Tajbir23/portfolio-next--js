@@ -1,4 +1,4 @@
-import TypeWriter from "./TypeWriter";
+
 import LinkPreview from "./ui/link-preview";
 import TextGenerateEffect from "./ui/text-generate-effect";
 import Vortex from "./ui/vortex";
