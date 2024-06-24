@@ -2,6 +2,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import TracingBeam from "@/components/ui/tracing-beam";
 import Navbar from "@/components/Navbar";
+import AosInit from "@/components/AosInit";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,9 +22,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        
         <Navbar />
         <TracingBeam>
           <div>{children}</div>
+          <AosInit />
         </TracingBeam>
       </body>
     </html>

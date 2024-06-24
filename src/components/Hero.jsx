@@ -13,7 +13,7 @@ export default function Hero() {
         backgroundColor="black"
         className="flex  flex-col justify-center md:px-10  w-full h-full px-5"
       >
-        <h2 className="text-white text-2xl md:text-6xl font-bold">
+        <h2 data-aos="fade-left" className="text-white text-2xl md:text-6xl font-bold ">
           Hi! i am <LinkPreview url="https://i.ibb.co/MsjpfXV/12555.jpg" className='text-blue-700'>Tajbir islam</LinkPreview>
         </h2>
         
@@ -21,7 +21,7 @@ export default function Hero() {
         <div>
 
         </div>
-        <div className="flex flex-col sm:flex-row  gap-4 mt-6">
+        <div data-aos="fade-right" className="flex flex-col sm:flex-row  gap-4 mt-6">
           <a href="https://drive.google.com/file/d/1acMNxI1GphUz_kF8vwYh1d7RD7w_sgPl/view?usp=sharing" className="px-4 w-max py-2 bg-blue-600 hover:bg-blue-700 transition duration-200 rounded-lg text-white shadow-[0px_2px_0px_0px_#FFFFFF40_inset]">
           
             Download resume
