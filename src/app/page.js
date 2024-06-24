@@ -1,5 +1,6 @@
 
 import { CardHover } from "@/components/CardHover";
+import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import { Projects } from "@/components/Projects";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <CardHover />
       <Projects />
+      <Contact />
     </div>
   );
 }
