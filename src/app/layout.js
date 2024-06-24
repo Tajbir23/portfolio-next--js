@@ -15,7 +15,26 @@ export const metadata = {
     template: "%s | Tajbir islam",
   },
   description: desc,
-  keywords : desc.split(" ")
+  keywords : desc.split(" "),
+  openGraph : {
+    title: {
+      default: "Tajbir islam",
+      template: "%s | Tajbir islam",
+    },
+    description: desc,
+    keywords : desc.split(" "),
+    type: "website",
+    locale: "en_US",
+    site_name: "Tajbir islam",
+    images: [
+      {
+        url: "https://i.ibb.co/MsjpfXV/12555.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Tajbir islam",
+      },
+    ],
+  }
 };
 
 export default function RootLayout({ children }) {
