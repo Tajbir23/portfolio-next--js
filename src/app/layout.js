@@ -28,7 +28,7 @@ export const metadata = {
     site_name: "Tajbir islam",
     images: [
       {
-        url: "https://i.ibb.co/MsjpfXV/12555.jpg",
+        url: "/images/og.jpeg",
         width: 1200,
         height: 630,
         alt: "Tajbir islam",
