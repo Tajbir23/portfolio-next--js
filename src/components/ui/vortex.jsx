@@ -210,7 +210,7 @@ const Vortex = ({
   }, []);
 
   return (
-    <div className={cn("relative h-auto w-full", containerClassName)}>
+    <div className={cn("relative h-[calc(100vh-170px)] w-full", containerClassName)}>
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
