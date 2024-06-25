@@ -5,7 +5,7 @@ import Vortex from "./ui/vortex";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Hero() {
-    const words = `A skilled MERN stack developer. I specialize in creating powerful web applications with MongoDB, Express.js, React, and Node.js. Let&apos;s turn your ideas into reality!`
+    const words = `A skilled MERN stack developer. I specialize in creating powerful web applications with MongoDB, Express.js, React, and Node.js. Let's turn your ideas into reality!`
 
   return (
     <div className="w-full mx-auto rounded-md h-screen overflow-hidden bg-black">
