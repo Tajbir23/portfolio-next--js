@@ -34,7 +34,7 @@ const Contact = () => {
             className="p-3 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             type="text"
             id="name"
-            placeholder="Your Name"
+            placeholder="Your subject"
           />
         </div>
         <div className="flex flex-col mb-4">
