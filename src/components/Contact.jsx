@@ -5,7 +5,7 @@ const Contact = () => {
     e.preventDefault();
 
     // Get form values
-    const subject = e.target.subject.value;
+    const subject = e.target.subject.value
     const email = e.target.email.value;
     const message = e.target.message.value;
     console.log(subject, email, message);
@@ -33,7 +33,8 @@ const Contact = () => {
           <input
             className="p-3 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
             type="text"
-            id="name"
+            id="subject"
+            name="subject"
             placeholder="Your subject"
           />
         </div>
