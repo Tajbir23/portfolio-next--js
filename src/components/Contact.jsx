@@ -1,5 +1,7 @@
 'use client'
 
+import Swal from "sweetalert2";
+
 const Contact = () => {
   const handleSubmit = async(e) => {
     e.preventDefault();
@@ -22,7 +24,17 @@ const Contact = () => {
       })
     })
     .then(res => res.json())
-    .then(data => console.log(data))
+    .then(data => {
+      if(data){
+        Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: "Your email has been send",
+          showConfirmButton: false,
+          timer: 1500
+        });
+      }
+    })
     .catch(err => console.log(err))
     // Send form data to server or use fetch API
     alert("Form submitted successfully!");
