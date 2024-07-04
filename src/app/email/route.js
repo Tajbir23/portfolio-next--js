@@ -29,6 +29,7 @@ export async function POST(request) {
 
         const mailOptions = {
             from: body.email,
+            replyTo: body.email,
             to: process.env.USER_NAME,
             subject: body.subject,
             text: body.message
