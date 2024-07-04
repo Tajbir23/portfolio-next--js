@@ -10,16 +10,17 @@ const Contact = () => {
     const message = e.target.message.value;
     console.log(subject, email, message);
 
-    const res = await fetch("/email", {
+    fetch("/email", {
       method: "POST",
       body: JSON.stringify({
         subject: subject,
         email: email,
         message: message
       })
-    });
-    const data = res.json()
-    console.log(data);
+    })
+    .then(res => res.json())
+    .then(data => console.log(data))
+    .catch(err => console.log(err))
     // Send form data to server or use fetch API
     alert("Form submitted successfully!");
   }
