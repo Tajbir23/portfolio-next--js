@@ -20,12 +20,12 @@ export async function POST(request){
             subject: body.subject,
             text: body.message
         })
-        Response.json(mail)
+        Response.json({mail})
     } catch (error) {
         console.log(error.message)
     }
     
-    // return Response.json({
-    //     message: "Email send successful"
-    // })
+    return Response.json({
+        message: "Email send successful"
+    })
 }
