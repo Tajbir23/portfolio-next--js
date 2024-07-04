@@ -36,8 +36,6 @@ const Contact = () => {
       }
     })
     .catch(err => console.log(err))
-    // Send form data to server or use fetch API
-    alert("Form submitted successfully!");
   }
   return (
     <div id="contact" className="min-h-screen mx-10 bg-black text-white flex items-center justify-center">
