@@ -15,6 +15,11 @@ const Navbar = () => {
           name: "Projects",
           link: "#projects",
         },
+        ,
+        {
+          name: "Pinned repo",
+          link: "#pinned-repo",
+        },
         {
           name: "Contact",
           link: "#contact",
