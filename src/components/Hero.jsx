@@ -14,7 +14,7 @@ export default function Hero() {
         className="flex  flex-col justify-center md:px-10  w-full h-full px-5"
       >
         <h2 data-aos="fade-left" className="text-white text-2xl md:text-6xl font-bold ">
-          Hi! i am <LinkPreview url="https://i.ibb.co/MsjpfXV/12555.jpg" className='text-blue-700'>Tajbir islam</LinkPreview>
+          Hi! i am <LinkPreview url="https://github.com/Tajbir23" className='text-blue-700'>Tajbir islam</LinkPreview>
         </h2>
         
         <TextGenerateEffect words={words} />
