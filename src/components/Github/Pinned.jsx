@@ -2,8 +2,8 @@ import Image from "next/image"
 import Link from "next/link"
 
 const repo = async() => {
-    const url = "https://portfolio-tajbir.vercel.app"
-    const result = await fetch(`/github-pinned-repo`)
+    // const url = "https://portfolio-tajbir.vercel.app"
+    const result = await fetch(`https://portfolio-tajbir.vercel.app/github-pinned-repo`)
     const data = await result.json()
     return data.user.pinnedItems.edges
 }
