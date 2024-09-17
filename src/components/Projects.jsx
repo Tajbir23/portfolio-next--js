@@ -24,39 +24,39 @@ const content = [
     ),
   },
   {
-    title: "BookNook",
+    title: "Chat app",
     description:
-      "Our platform simplifies book management with easy additions, seamless borrowing, librarian oversight, hassle-free returns, and automated stock updates.",
-    link: 'https://assignment11.tajbirideas.com',
-    client: 'https://github.com/Tajbir23/assignment-11-client',
-    server: 'https://github.com/Tajbir23/assignment-11-server',
+      "Chat app uses Redux Toolkit, TypeScript, React.js, and Tailwind CSS. It features a responsive UI with toggling sidebars, message input, and file uploads. Messages are aligned right for the user and left for others. Socket.io events are modularized.",
+    link: 'https://realtime-chat-app-tajbir.web.app',
+    client: 'https://github.com/Tajbir23/realtime-chat-app.git',
+    server: 'https://github.com/Tajbir23/realtime-chat-app-server.git',
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/projects/booknook.png"
+          src="/projects/Chat.png"
           width={300}
           height={300}
           className="h-full w-full object-cover"
-          alt="BookNook"
+          alt="Chat"
         />
       </div>
     ),
   },
   {
-    title: "Artisan Haven",
+    title: "INSTAPAY",
     description:
       "Discover inspiring artworks, join interactive workshops, connect with fellow artists, access a rich resource library, and shop quality art supplies at Artisan Haven. Unleash your inner artist with us today!",
-    link: 'https://assignment10.tajbirideas.com',
-    client: 'https://github.com/Tajbir23/assignment-10-client',
-    server: 'https://github.com/Tajbir23/assignment-10-server',
+    link: 'https://mfs-app-4e475.web.app/login',
+    client: 'https://github.com/Tajbir23/mfs-client.git',
+    server: 'https://github.com/Tajbir23/mfs-server.git',
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/projects/artisan.png"
+          src="/projects/instapay.png"
           width={300}
           height={300}
           className="h-full w-full object-cover"
-          alt="Artisan haven"
+          alt="instapay"
         />
       </div>
     ),

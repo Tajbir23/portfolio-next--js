@@ -44,9 +44,18 @@ export const projects = [
     image : '/images/skill/mongodb.png'
   },
   {
+    image : '/images/skill/mongoose.png'
+  },
+  {
     image : '/images/skill/github.png'
   },
   {
     image : '/images/skill/jwt.png'
+  },
+  {
+    image : '/images/skill/typescript.png'
+  },
+  {
+    image : '/images/skill/redux.png'
   },
 ];
