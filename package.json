@@ -16,7 +16,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.11",
     "graphql-request": "^7.1.0",
-    "next": "14.2.4",
+    "next": "14.2.10",
     "nodemailer": "^6.9.14",
     "qss": "^3.0.0",
     "react": "^18",
