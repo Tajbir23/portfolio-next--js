@@ -42,11 +42,15 @@ const query = gql`
 export async function GET() {
   try {
     const data = await graphQLClient.request(query);
+
+    const headers = new Headers();
+    headers.set('Cache-Control', 's-maxage=3600, stale-while-revalidate');
     return new Response(JSON.stringify(data), {
       status: 200,
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', ...headers },
     });
   } catch (error) {
+    console.error('Error fetching data:', error);
     return new Response(JSON.stringify({ error: 'Error fetching data' }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' },
